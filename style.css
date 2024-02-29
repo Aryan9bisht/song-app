@@ -1,0 +1,171 @@
+.body{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+.fa-bars{
+    margin-top: 10px;
+  margin-left: 10px;
+}
+.full-screen{
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    box-shadow: 10px 10px 10px 10px #E1EFF1;
+    height: 68vh;
+    width: 20vw;
+    display: flex;
+    padding-top: 10px;
+    margin: 1%;
+    margin-top: 10vh;
+    justify-content: space-between;
+    align-self:center;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    padding-top: none;
+    padding-bottom: 15px;
+}
+.content{
+    margin-top: 3%;
+    text-align: center;
+}
+.playing{
+    font-size: small;
+    margin-top: 5px;
+    color: #D8D1CA;
+    padding-bottom: 10px;
+}
+
+
+.artist{
+    font-size: smaller;
+}
+img{
+    padding-top: 30px;
+    height: 200px;
+    width: 300px;;
+}
+hr{
+   
+    opacity: 0.5;
+}
+i{
+    font-size: x-large;
+}
+.player{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.albums{
+    color:#969198;
+    font-weight: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+.autumn{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: -20px;
+   
+}
+.magical{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: -20px;
+    font-weight: bold;
+    color: black;
+}
+.song{
+    margin-left: -20px;
+}
+.burning{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: -20px;
+}
+.cooking{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: -20px;
+}
+.fa-light{
+    margin-top:10px;
+    margin-right: 15px;
+    margin-left: -20px;
+}
+
+li{
+    color: #00B9B0;
+  margin-left: -15px;
+}
+.songtime{
+    margin-right: -15px;
+}
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .full-screen {
+      margin-top: 10vh;
+        width: 70vw; 
+        
+                height: 65vh;
+        padding: 20px;
+    }
+
+    .content{
+        margin-top:none;
+    }
+    img {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+        padding-top: 10px;
+    }
+    .artist{
+        padding-bottom: 10px;
+    }
+
+    .playing,
+    .artist {
+        font-size: small; 
+    }
+
+    .time {
+        font-size: smaller; 
+        padding-top: 5px; 
+        padding-bottom: 20px;    
+     }
+
+    
+hr{
+    padding-bottom: none;;
+}
+    .albums,
+    .autumn,
+    .magical,
+    .burning,
+    .cooking {
+       
+        font-size: small;
+        margin-left: -15px; 
+        padding: 10px;
+    }
+    .song{
+        margin-left: -20px;
+       
+    }
+    .time{
+        margin-right: -20px;
+    }
+}
