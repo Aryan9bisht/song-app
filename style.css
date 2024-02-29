@@ -114,7 +114,7 @@ li{
 
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 600px) {
     .full-screen {
       margin-top: 10vh;
         width: 70vw; 
@@ -125,6 +125,14 @@ li{
 
     .content{
         margin-top:none;
+    }
+    .image{
+        justify-content: center;
+  display: flex;
+  margin-left: -22px;
+    }
+    hr{
+        margin-left: -23px;
     }
     img {
         width: 100%;
@@ -144,12 +152,17 @@ li{
     .time {
         font-size: smaller; 
         padding-top: 5px; 
-        padding-bottom: 20px;    
+        padding-bottom: 20px;  margin-left: -22px;
+        margin-right: -2px;
+
      }
 
     
 hr{
     padding-bottom: none;;
+}
+.player{
+    margin-left: -25px;
 }
     .albums,
     .autumn,
@@ -165,7 +178,22 @@ hr{
         margin-left: -20px;
        
     }
+    .songtime{
+        margin-right: -20px;
+    }
     .time{
+        margin-right: -20px;
+    }
+  
+    li{
+        margin-left: -10px;
+    }
+    .magical >li{
+        margin-left: -31px;
+        
+
+    }
+    .magical .songtime{
         margin-right: -20px;
     }
 }
