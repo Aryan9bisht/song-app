@@ -49,8 +49,12 @@ img{
     height: 200px;
     width: 300px;;
 }
+.image{
+    margin-left: -20px;
+}
 hr{
-   
+    margin-left: -20px;
+   width: 16vw;
     opacity: 0.5;
 }
 i{
@@ -105,10 +109,17 @@ i{
 
 li{
     color: #00B9B0;
-  margin-left: -15px;
+  margin-left: -20px;
 }
 .songtime{
-    margin-right: -15px;
+    margin-right: -20px;
+}
+.start{
+    margin-left: -19px;
+  margin-top: -7px;
+}
+.end{
+    margin-top: -7px;
 }
 
 
