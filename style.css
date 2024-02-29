@@ -114,7 +114,7 @@ li{
 
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 475px) {
     .full-screen {
       margin-top: 10vh;
         width: 70vw; 
